@@ -18,6 +18,12 @@ A responsive user registration form built with React and styled using Tailwind C
 
 ## Getting Started
 
+**Clone this repository:**
+
+   ```bash
+   git clone https://github.com/sabirhusseinbalal/simple-react-user-registration-express-backend.git
+   ```
+
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
