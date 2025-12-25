@@ -21,89 +21,25 @@ A responsive user registration form built with React and styled using Tailwind C
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
-### Installation
+## Installation
 
-#### Frontend Setup
+1. Clone the repository.
 
-1. Create a new Vite project:
-
-   ```bash
-   npm create vite@latest
+    ```bash
+   git clone https://github.com/sabirhusseinbalal/simple-react-user-registration-express-backend.git
    ```
+  
+2. Run `npm install` to install dependencies.
 
-2. Install Tailwind CSS and its dependencies:
-
-   ```bash
-   npm install -D tailwindcss postcss autoprefixer
-   ```
-
-3. Initialize Tailwind CSS:
-
-   ```bash
-   npx tailwindcss init -p
-   ```
-
-4. Install Axios and react-hook-form:
-
-   ```bash
-   npm install axios react-hook-form
-   ```
-
-
-## Paste this in tailwind.config.js
-
-```
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-## Paste this in index.css
-
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-
-### Run (Frontend Terminal)
+### 3: Run (Frontend Terminal)
 ```bash
 npm run dev
 ```
 
----
-## Create a my-backend Folder
-
-
-### Open this folder in VS Code:
-
-```bash
-npm init -y
-```
-
-```bash
-npm install express body-parser cors
-```
-
-```bash
-npm install body-parser
-```
-
-### Run (Backend Terminal)
-
+### 4: Run (Backend Terminal)
 ```bash
 npm start
 ```
-
 
 ---
 ---
@@ -111,8 +47,5 @@ npm start
 ---
 ---
 
-   ```bash
-   git clone https://github.com/sabirhusseinbalal/simple-react-user-registration-express-backend.git
-   ```
 
 
